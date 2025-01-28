@@ -80,7 +80,7 @@ void  vector_add_cpu(float *A, float *B, float*C ,int n){
 }
 int main(){
   // Size of the vector
-  int n = 100000;
+  int n = 100000000;
 
   //Host memmory
   float *A_h = (float*) malloc(n * sizeof(float));
